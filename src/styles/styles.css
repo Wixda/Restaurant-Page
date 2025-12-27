@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #222B36;
+    transition: all 0.33s ease-in;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 8px 32px 16px;
+}
+
+header #logo {
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    gap: 2rem;
+}
+
+header nav button{
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header nav button:hover{
+    text-decoration: underline;
+}
+
+main {
+    margin: 0 16rem;
+}
+
+main #home-section {
+    padding: 16px;
+}
+
+main #home-section h2 {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+main #home-section p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+main #home-section button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    background: #222B36;
+    border: none;
+    cursor: pointer;
+}
+
+main #menu-section {
+    padding: 16px;
+}
+
+main #menu-section h2 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+
+main #menu-section > p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+main #menu-section #menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+main #menu-section #menu-list h3{
+    font-size: 2rem;
+    color: #000000;
+}
+
+main #menu-section #menu-list p{
+    font-size: 1.2rem;
+}
+
+main #contact-section {
+    padding: 16px;
+}
+
+main #contact-section h2 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+
+main #contact-section p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+main #contact-section button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    background: #222B36;
+    border: none;
+    cursor: pointer;
+}
